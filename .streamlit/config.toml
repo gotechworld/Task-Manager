@@ -1,0 +1,60 @@
+[theme]
+# Base theme (light or dark)
+base = "dark"
+
+# Primary accent color for interactive elements
+primaryColor = "#4287f5"  # Bright blue for travel theme
+
+# Background color for the main content area
+backgroundColor = "#0e1117"
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#1a1f2b"
+
+# Color used for almost all text
+textColor = "#ffffff"
+
+# Font family for all text in the app, except code blocks
+font = "sans serif"
+
+[server]
+# Enable this to allow the app to be served over HTTPS
+enableCORS = false
+
+# Enable this to allow the app to be served over HTTP
+enableXsrfProtection = true
+
+# Port where the server will listen for connections
+port = 8501
+
+# Maximum size, in megabytes, for files uploaded with the file_uploader
+maxUploadSize = 200
+
+[browser]
+# Whether to open the browser automatically when the server starts
+serverAddress = "localhost"
+gatherUsageStats = false
+
+[mapbox]
+# Your Mapbox token for map visualizations
+token = ""  # Add your Mapbox token if you plan to add maps
+
+[deprecation]
+# Show deprecation warnings in the app
+showfileUploaderEncoding = false
+showPyplotGlobalUse = false
+
+[logger]
+# Log level
+level = "info"
+
+[global]
+# Development mode
+developmentMode = false
+
+# Custom section for travel app settings
+[todo-app]
+app_name = "Task Manager"
+company_name = "Petru Giurca"
+contact_email = "petru.giurca@pm.me"
+contact_phone = "+40 754215612"
